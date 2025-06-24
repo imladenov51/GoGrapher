@@ -45,6 +45,8 @@ jobs:
                 platform:
                     - runner: windows-latest
                       target: x64
+                    - runner: windows-11-arm
+                      target: aarch64
 
         steps:
             - uses: actions/checkout@v4
